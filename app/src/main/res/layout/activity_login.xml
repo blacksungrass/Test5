@@ -36,6 +36,7 @@
             android:orientation="horizontal">
 
             <EditText
+                android:id="@+id/edit_phone"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="9"
@@ -64,6 +65,7 @@
             android:orientation="horizontal">
 
             <EditText
+                android:id="@+id/edit_password"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="9"
@@ -74,6 +76,12 @@
                 android:maxLines="1"
                 android:textColor="#fff"
                 android:textSize="25sp" />
+
+            <ImageView
+                android:id="@+id/view_password"
+                android:layout_width="32dp"
+                android:layout_height="30dp"
+                android:src="@drawable/view1a" />
         </LinearLayout>
 
         <!-- separation line -->
@@ -86,6 +94,7 @@
 
         <!-- login button -->
         <Button
+            android:id="@+id/buton_login"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:alpha="0.5"
@@ -103,6 +112,7 @@
 
             <!-- forget password -->
             <TextView
+                android:id="@+id/retrieve_pw"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -113,6 +123,7 @@
 
             <!-- register -->
             <TextView
+                android:id="@+id/new_register"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
